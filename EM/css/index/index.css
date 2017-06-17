@@ -1,0 +1,74 @@
+/* index.css */
+
+#em-team {
+    float: left;
+    position: absolute;
+    left: 67px;
+    top: 75px;
+}
+
+#em-author {
+    float: left;
+    position: absolute;
+    left: 69px;
+    top: 118px;
+}
+
+#em-create-time {
+    float: left;
+    position: absolute;
+    left: 69px;
+    top: 150px;
+}
+
+#em-version {
+    float: left;
+    position: absolute;
+    left: 534px;
+    top: 344px;
+}
+
+#em-user {
+    float: left;
+    position: absolute;
+    left: 534px;
+    top: 376px;
+}
+
+
+#em-copyright {
+    float: left;
+    position: absolute;
+    left: 290px;
+    top: 625px;
+}
+
+#em-img {
+    float: left;
+    position: absolute;
+    width: 390px;
+    height: 390px;
+    left: 37px;
+    top: 199px;
+}
+
+.em-lg-caption {
+    font-family: '»ªÎÄÐÂÎº';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.em-md-caption {
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.em-sm-caption {
+    font-family: 'Î¢ÈíÑÅºÚ';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}

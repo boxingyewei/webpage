@@ -1,0 +1,12 @@
+﻿/* index.css */
+
+#em-bd {
+    height : 660px;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.em-nav {
+    cursor: pointer;
+}

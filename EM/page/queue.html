@@ -1,0 +1,66 @@
+﻿<html>
+    <head>
+        <meta name="generator"
+        content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/queue/queue.css" />
+        <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/queue/queue.js"></script>
+        <title></title>
+    </head>
+    <body onload="TableOp.initialization()">
+        <div id="em-queue-detail" style="display:none;">
+            <button class="btn btn-primary" style="float:right;" onclick="table_detail(false)">
+                <span class="glyphicon glyphicon-remove"></span>
+            </button>
+            <p></p>
+            <p>
+                <span class="text-muted">&nbsp;&nbsp;队列名称&nbsp;:&nbsp;</span>
+                <span id="em-queue-name-1"></span>
+            </p>
+            <p>
+                <span class="text-muted">&nbsp;&nbsp;连接数量&nbsp;:&nbsp;</span>
+                <span id="em-con-num-1">0</span>
+            </p>
+            <div class="panel panel-default">
+                <div class="panel-heading">发送消息</div>
+                <div class="panel-body" id="em-sed-meg">
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">发送消息</div>
+                <div class="panel-body" id="em-rec-meg">
+                </div>
+            </div>
+        </div>
+        <div id="em-input-text" class="input-group em-table-font">
+            <span class="input-group-addon">队列名称</span>
+            <input id="em-queue-name" type="text" class="form-control" placeholder="请输入队列名称"/>
+            <span class="input-group-btn">
+                <button class="btn btn-primary" onclick="TableOp.addRow()">创建</button>
+            </span>
+        </div>
+        <div id="em-table" class="em-table-font">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>队列名称</th>
+                        <th>发送消息个数</th>
+                        <th>接受消息个数</th>
+                        <th>创建时间</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="em-table-bd">
+                </tbody>
+            </table>
+        </div>
+        <div id="em-table-pager">
+            <button id="em-left-pager"><span>&laquo;</span></button>
+            <span>1</span><span>/</span><span>8</span>
+            <button id="em-right-pager"><span>&raquo;</span></button>
+            <span>8</span><span>页</span>
+        </div>
+    </body>
+</html>
